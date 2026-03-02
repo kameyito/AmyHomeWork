@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+
+<form>
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" required><br><br>
+
+    <label for="gmail">Gmail:</label><br>
+    <input type="email" id="gmail" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" required><br><br>
+
+    <label for="number">Number:</label><br>
+    <input type="number" id="number"><br><br>
+
+    <label for="country">Select your country:</label><br>
+    <select id="country" required>
+        <option value="">-- Choose a country --</option>
+        <option>United States</option>
+        <option>Puerto Rico</option>
+        <option>Dominican Republic</option>
+        <option>Spain</option>
+        <option>Other</option>
+    </select><br><br>
+
+    <label>
+        <input type="checkbox" id="terms" required>
+        I agree to the terms and conditions
+    </label><br><br>
+
+    <label for="review">Leave a review:</label><br>
+    <textarea id="review" rows="6" cols="45" placeholder="Write your review here..." required></textarea><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
